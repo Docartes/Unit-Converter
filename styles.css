@@ -1,0 +1,11 @@
+#input-area > input {
+	margin-bottom: 1rem;
+}
+
+button > #length-units, #weight-units, #temperature-units {
+	margin-bottom: 20px;
+}
+
+.hidden {
+	display: none;
+}
