@@ -11,14 +11,16 @@
 
 	<button id="length-units">Length</button>
 	<button id="weight-units">Weight</button>
-	<button id="temperature-units">Temperature</button>
+	<button id="temp-units">Temperature</button>
 
 	<div class="" id="input-area">
-		<input type="number" name="length" placeholder="enter length to convert" id="length">
+		<input type="number" name="length" placeholder="enter length to convert" id="length" required>
+		<input class="hidden" type="number" name="weight" placeholder="enter weight to convert" id="weight" required>
+		<input class="hidden" type="number" name="temp" placeholder="enter temperature to convert" id="temp" required>
 		<br>
-		<input type="text" name="from" placeholder="unit convert from" id="from">
+		<input type="text" name="from" placeholder="unit convert from" id="from" required>
 		<br>
-		<input type="text" name="to" placeholder="unit convert to" id="to">
+		<input type="text" name="to" placeholder="unit convert to" id="to" required>
 		<br>
 		<button id="convert">convert</button>
 	</div>
